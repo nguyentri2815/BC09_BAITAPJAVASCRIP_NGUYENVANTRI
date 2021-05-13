@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js buoi2</title>
+</head>
+<body>
+    <h1 style="font-weight: bold; text-align: center;">BÀI TẬP JS BUỔI 1</h1>
+    <!-- ===================bài 1====================== -->
+    <h1>Bài 1 : tính tiền lương </h1>
+    <input id='workDay' type="text" name=""  placeholder="nhập số ngày làm">
+    <button onclick="calcSalary()">click de tinh tiền lương</button>
+    <p id="resultSalary" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <!-- ===================bài 2====================== -->
+    <h1>Bài 2 : tính TB 5 số </h1>
+    <input id='num1' type="text" name="" placeholder="số 1">
+    <input id='num2' type="text" name=""  placeholder="số 2">
+    <input id='num3' type="text" name=""  placeholder="số 3">
+    <input id='num4' type="text" name=""  placeholder="số 4">
+    <input id='num5' type="text" name=""  placeholder="số 5">
+    <button onclick="calcTB()">click de tinh tb 5 số</button>
+    <p id="resultTB" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <!-- ===================bài 3====================== -->
+    <h1>Bài 3 : quy đổi tiền </h1>
+    <input id='numberMoney' type="text" name=""  placeholder="nhâp số tiền">
+    <button onclick="calcQD()">click quy đổi tiền</button>
+    <p id="resultQD" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <!-- ===================bài 4====================== -->
+    <h1>Bài 4 : tính diện tích , chu vi hình chữ nhật </h1>
+    <input id='length' type="text" name="" placeholder="nhâp số tiền">
+    <input id='width' type="text" name=""  placeholder="nhâp số tiền">
+    <button onclick="calcDTCV()">click tính diện tích và chu vi</button>
+    <p id="resultDT" style="color:red; font-weight: bold;"></p>
+    <p id="resultCV" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <!-- ===================bài 5====================== -->
+    <h1>Bài 5 : tính tổng 2 ký số </h1>
+    <input id='number2word' type="text" name=""  placeholder="nhâp số tiền">
+    <button onclick="calcTotol()">click tính tổng 2 ký số</button>
+    <p id="resultTotol" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <h1 style="font-weight: bold; text-align: center;">BÀI TẬP JS BUỔI 2</h1>
+    <!-- ===================bài 1====================== -->
+    <h1>Bài 1 : xuất 3 số theo thứ tự tăng dần</h1>
+    <input id='num1js2' type="text" name=""  placeholder="nhâp số 1">
+    <input id='num2js2' type="text" name=""  placeholder="nhâp số 2">
+    <input id='num3js2' type="text" name=""  placeholder="nhâp số 3">
+    <button onclick="ascending()">click sắp xếp tăng dần</button>
+    <p id="resultAscending" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <!-- ===================bài 2====================== -->
+    <h1>Bài 2 : chương trình chào hỏi</h1>
+    <input id='namejs2' type="text" name=""  placeholder="bạn tên gì">
+    <button onclick="welcom()">click chào hỏi</button>
+    <hr>
+    <!-- ===================bài 3====================== -->
+    <h1>Bài 3 : tính sổ chẳn số lẻ</h1>
+    <input id='num1js22' type="text" name=""  placeholder="số 1">
+    <input id='num2js22' type="text" name=""  placeholder="số 2">
+    <input id='num3js22' type="text" name=""  placeholder="số 3">
+    <button onclick="evenOdd()">click tính chản lẻ</button>
+    <p id="resulteventOdd" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <!-- ===================bài 4====================== -->
+    <h1>Bài 4 : tính tam giác gì</h1>
+    <input id='a' type="text" name=""  placeholder="canh 1">
+    <input id='b' type="text" name=""  placeholder="canh 2">
+    <input id='c' type="text" name=""  placeholder="canh 3">
+    <button onclick="triangle()">click xác định tam giác</button>
+    <p id="resulttriangle" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <h1 style="font-weight: bold; text-align: center;">BÀI TẬP JS BUỔI 3</h1>
+    <!-- ===================bài 1====================== -->
+    <h1>Bài 1 : quan lý tuyển sinh</h1>
+    <input type="text" name="" placeholder="sub1" id="sub1">
+    <input type="text" name="" placeholder="sub2" id="sub2">
+    <input type="text" name="" placeholder="sub3" id="sub3">
+    <input type="text" name="" placeholder="area" id="area">
+    <input type="text" name="" placeholder="type" id="type">
+    <input type="text" name="" placeholder="standard" id="standard">
+    <button onclick="main()" >submit</button>
+    <p id="resultStudent" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <!-- ===================bài 2====================== -->
+    <h1>Bài 2 : tính tiền điện</h1>
+    <input type="text" name="" placeholder="tên ông/bà" id="nameBill">
+    <input type="text" name="" placeholder="số kw" id="kw">
+    <button onclick="countElectricityBill()" >tính tiền điện</button>
+    <p id="resultBill" style="color:red; font-weight: bold;"></p>
+    <hr>
+    <!-- ===================bài 3====================== -->
+    <h1>Bài 3 : thuế thu nhập cá nhận</h1>
+    <input type="text" name="" placeholder="tên ông/bà" id="nameTax">
+    <input type="text" name="" placeholder="số thu nhập" id="totalIncome">
+    <input type="text" name="" placeholder="số người phụ thuộc" id="dependent">
+    <button onclick="incomeTax()" >tính thuế thu nhập</button>
+    <div id="resultTax" style="color:red; font-weight: bold;"></div>
+    <hr>
+    <!-- ===================bài 4====================== -->
+    <h1>Bài 4 : in hóa đơn tiền cáp</h1>
+    <input type="text" name="" placeholder="mã đơn hàng" id="codeCustommer">
+    <input type="text" name="" placeholder="số kenh cap cấp" id="highChannel">
+    <select name="" id="typeCustommer" onchange="changeSelect()">
+        <option value="1" >khach nhà dân</option>
+        <option value="2" selected>doanh nghiệp</option>
+    </select>
+    <input type="text" name="" placeholder="số kênh kết nối" id="chanelConect">
+    <button onclick="calcMoney()" >in  hóa đơn</button>
+    <div id="billChanel" style="color:red; font-weight: bold;"></div>
+    <hr>
+    <script src="./js/index.js"></script>
+</body>
+</html>
